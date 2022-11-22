@@ -1,0 +1,39 @@
+body {
+    background-color: #EDEDED;
+}
+main {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 50px;
+}
+.conversa {
+    margin: 20px 0 50px 0;
+}
+.conversa p {
+    margin-right: 40%;
+    padding: 5px 10px;
+    border-radius: 0 15px 15px 15px;
+    background-color: #fef6e4;
+}
+.conversa .user,
+.conversa span {
+    text-align: right;
+    display: block;
+    background:#d9fdd3;
+    margin-left: 40%;
+    padding: 5px 10px;
+    border-radius: 15px 0 15px 15px
+}
+.usuario {
+    width:100%;
+}
+.usuario input {
+    display: inline-block;
+}
+.usuario .enviar {
+    width:20%;
+}
+.usuario .mensagem {
+    width:70%;
+}
